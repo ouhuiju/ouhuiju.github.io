@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Okar&#39;s Blog</title>
+  <title>Runtime学习笔记2--Method Swizzling | Okar&#39;s Blog</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -18,16 +18,16 @@
   <meta name="description" content="前言前文再续，书接上一回，我们知道了自己在开发的时候写的是“伪代码“执行的是另有其人后，就可以开始接触runtime的另一个黑魔法了，就是Method swizzling. 通俗点来讲，就是把自己写的一个方法在runtime执行阶段替换掉一个系统的方法，这符合了动态语言的特性，是runtime的用法的延伸。同时，我们可以利用苹果这一特性来实现AOP（面向切面编程）。
 概念Mattt Thompso">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Okar's Blog">
+<meta property="og:title" content="Runtime学习笔记2--Method Swizzling">
 <meta property="og:url" content="http://yoursite.com/2017/03/17/Runtime学习笔记2--Method Swizzling/index.html">
 <meta property="og:site_name" content="Okar's Blog">
 <meta property="og:description" content="前言前文再续，书接上一回，我们知道了自己在开发的时候写的是“伪代码“执行的是另有其人后，就可以开始接触runtime的另一个黑魔法了，就是Method swizzling. 通俗点来讲，就是把自己写的一个方法在runtime执行阶段替换掉一个系统的方法，这符合了动态语言的特性，是runtime的用法的延伸。同时，我们可以利用苹果这一特性来实现AOP（面向切面编程）。
 概念Mattt Thompso">
 <meta property="og:image" content="http://img.blog.csdn.net/20161019232017680">
 <meta property="og:image" content="http://img.blog.csdn.net/20161019232141713">
-<meta property="og:updated_time" content="2017-03-17T14:05:31.000Z">
+<meta property="og:updated_time" content="2017-03-17T14:15:23.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Okar's Blog">
+<meta name="twitter:title" content="Runtime学习笔记2--Method Swizzling">
 <meta name="twitter:description" content="前言前文再续，书接上一回，我们知道了自己在开发的时候写的是“伪代码“执行的是另有其人后，就可以开始接触runtime的另一个黑魔法了，就是Method swizzling. 通俗点来讲，就是把自己写的一个方法在runtime执行阶段替换掉一个系统的方法，这符合了动态语言的特性，是runtime的用法的延伸。同时，我们可以利用苹果这一特性来实现AOP（面向切面编程）。
 概念Mattt Thompso">
 <meta name="twitter:image" content="http://img.blog.csdn.net/20161019232017680">
@@ -186,7 +186,7 @@
 <div class="content content-post LEFT">
    <article id="post-Runtime学习笔记2--Method Swizzling" class="article article-type-post" itemprop="blogPost">
   <header class="article-header">
-    <h1 class="post-title">(no title)</h1>
+    <h1 class="post-title">Runtime学习笔记2--Method Swizzling</h1>
 
     <div class="article-meta">
       <span>
